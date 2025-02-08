@@ -167,8 +167,8 @@ print("Your belt: ", belt)
 
 #LAB4 Q6
 
-print("YOU FIND THE LOOT BAG! look inside to find 2 items")
-input("Roll for the second item:")
+print("YOU FIND LOOT BAG! look inside to find 2 items")
+input("Roll for second item:")
 lootRoll = random.choice(range(1, len(loot_options) + 1))
 loot = loot_options.pop(lootRoll-1)
 belt.append(loot)
@@ -176,7 +176,7 @@ print("Your belt: ", belt)
 
 #Lab4 Q7-Sort the belt:
 belt.sort()
-print("Your belt items sorted as: ", belt)
+print("Your belt items sorted : ", belt)
 
 #LAB4 Q8-Use the belt
 print("To see a Monster, Quickly use your first item!")
